@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#urbanity;#vibrant_and_diverse,districts_enriched.ipynb:imported
+Lichtenberg,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Mitte,#urbanity;#vibrant_and_diverse,districts_enriched.ipynb:imported
+Neukölln,#urbanity;#vibrant_and_diverse,districts_enriched.ipynb:imported
+Pankow,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Reinickendorf,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Spandau,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#urbanity;#quiet_and_homogeneous,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#urbanity;#moderately_urban,districts_enriched.ipynb:imported
+Treptow-Köpenick,#urbanity;#quiet_and_homogeneous,districts_enriched.ipynb:imported

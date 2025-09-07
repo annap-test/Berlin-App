@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#low_playground_density,playgrounds.ipynb:rule-based
+Friedrichshain-Kreuzberg,#high_playground_density,playgrounds.ipynb:rule-based
+Lichtenberg,#high_playground_density,playgrounds.ipynb:rule-based
+Marzahn-Hellersdorf,#average_playground_density,playgrounds.ipynb:rule-based
+Mitte,#high_playground_density,playgrounds.ipynb:rule-based
+Neukölln,#high_playground_density,playgrounds.ipynb:rule-based
+Pankow,#average_playground_density,playgrounds.ipynb:rule-based
+Reinickendorf,#low_playground_density,playgrounds.ipynb:rule-based
+Spandau,#low_playground_density,playgrounds.ipynb:rule-based
+Steglitz-Zehlendorf,#low_playground_density,playgrounds.ipynb:rule-based
+Tempelhof-Schöneberg,#high_playground_density,playgrounds.ipynb:rule-based
+Treptow-Köpenick,#low_playground_density,playgrounds.ipynb:rule-based

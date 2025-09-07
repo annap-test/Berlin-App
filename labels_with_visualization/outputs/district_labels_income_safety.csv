@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#income_safety;#affluent_but_risky,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#income_safety;#affluent_but_risky,districts_enriched.ipynb:imported
+Lichtenberg,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#income_safety;#affordable_and_safe,districts_enriched.ipynb:imported
+Mitte,#income_safety;#affluent_but_risky,districts_enriched.ipynb:imported
+Neukölln,#income_safety;#disadvantaged_and_risky,districts_enriched.ipynb:imported
+Pankow,#income_safety;#affluent_and_safe,districts_enriched.ipynb:imported
+Reinickendorf,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported
+Spandau,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported
+Treptow-Köpenick,#income_safety;#mixed_income_safety,districts_enriched.ipynb:imported

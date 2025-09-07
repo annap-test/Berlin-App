@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#diversity;#high_diversity,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#diversity;#high_diversity,districts_enriched.ipynb:imported
+Lichtenberg,#diversity;#average_diversity,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#diversity;#low_diversity,districts_enriched.ipynb:imported
+Mitte,#diversity;#high_diversity,districts_enriched.ipynb:imported
+Neukölln,#diversity;#high_diversity,districts_enriched.ipynb:imported
+Pankow,#diversity;#low_diversity,districts_enriched.ipynb:imported
+Reinickendorf,#diversity;#average_diversity,districts_enriched.ipynb:imported
+Spandau,#diversity;#average_diversity,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#diversity;#low_diversity,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#diversity;#average_diversity,districts_enriched.ipynb:imported
+Treptow-Köpenick,#diversity;#low_diversity,districts_enriched.ipynb:imported

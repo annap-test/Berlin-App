@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "berlin-labels"
+version = "0.1.0"
+description = "Preprocessing utilities for Berlin neighborhood labels"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "geopandas",
+  "numpy",
+  "shapely",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

@@ -1,0 +1,13 @@
+district,hashtags,source
+Mitte,#venues;#vibrant,venues.ipynb:rule-based
+Friedrichshain-Kreuzberg,#venues;#vibrant,venues.ipynb:rule-based
+Pankow,#venues;#vibrant,venues.ipynb:rule-based
+Charlottenburg-Wilmersdorf,#venues;#vibrant,venues.ipynb:rule-based
+Spandau,#venues;#sparse,venues.ipynb:rule-based
+Treptow-Köpenick,#venues;#average,venues.ipynb:rule-based
+Steglitz-Zehlendorf,#venues;#average,venues.ipynb:rule-based
+Tempelhof-Schöneberg,#venues;#average,venues.ipynb:rule-based
+Marzahn-Hellersdorf,#venues;#sparse,venues.ipynb:rule-based
+Neukölln,#venues;#average,venues.ipynb:rule-based
+Lichtenberg,#venues;#sparse,venues.ipynb:rule-based
+Reinickendorf,#venues;#sparse,venues.ipynb:rule-based

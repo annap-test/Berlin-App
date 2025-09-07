@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#unemployment;#low_unemployment,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#unemployment;#high_unemployment,districts_enriched.ipynb:imported
+Lichtenberg,#unemployment;#average_unemployment,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#unemployment;#average_unemployment,districts_enriched.ipynb:imported
+Mitte,#unemployment;#high_unemployment,districts_enriched.ipynb:imported
+Neukölln,#unemployment;#high_unemployment,districts_enriched.ipynb:imported
+Pankow,#unemployment;#low_unemployment,districts_enriched.ipynb:imported
+Reinickendorf,#unemployment;#average_unemployment,districts_enriched.ipynb:imported
+Spandau,#unemployment;#high_unemployment,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#unemployment;#low_unemployment,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#unemployment;#average_unemployment,districts_enriched.ipynb:imported
+Treptow-Köpenick,#unemployment;#low_unemployment,districts_enriched.ipynb:imported

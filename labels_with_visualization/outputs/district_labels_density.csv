@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#density;#average_density,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#density;#high_density,districts_enriched.ipynb:imported
+Lichtenberg,#density;#average_density,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#density;#average_density,districts_enriched.ipynb:imported
+Mitte,#density;#high_density,districts_enriched.ipynb:imported
+Neukölln,#density;#high_density,districts_enriched.ipynb:imported
+Pankow,#density;#average_density,districts_enriched.ipynb:imported
+Reinickendorf,#density;#low_density,districts_enriched.ipynb:imported
+Spandau,#density;#low_density,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#density;#low_density,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#density;#high_density,districts_enriched.ipynb:imported
+Treptow-Köpenick,#density;#low_density,districts_enriched.ipynb:imported

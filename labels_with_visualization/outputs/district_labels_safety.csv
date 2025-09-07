@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#safety;#low_safety,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#safety;#low_safety,districts_enriched.ipynb:imported
+Lichtenberg,#safety;#average_safety,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#safety;#high_safety,districts_enriched.ipynb:imported
+Mitte,#safety;#low_safety,districts_enriched.ipynb:imported
+Neukölln,#safety;#low_safety,districts_enriched.ipynb:imported
+Pankow,#safety;#high_safety,districts_enriched.ipynb:imported
+Reinickendorf,#safety;#average_safety,districts_enriched.ipynb:imported
+Spandau,#safety;#average_safety,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#safety;#high_safety,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#safety;#average_safety,districts_enriched.ipynb:imported
+Treptow-Köpenick,#safety;#high_safety,districts_enriched.ipynb:imported

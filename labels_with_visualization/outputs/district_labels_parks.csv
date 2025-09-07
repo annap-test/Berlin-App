@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#high_green_share,parks.ipynb:rule-based
+Friedrichshain-Kreuzberg,#low_green_share,parks.ipynb:rule-based
+Lichtenberg,#average_green_share,parks.ipynb:rule-based
+Marzahn-Hellersdorf,#low_green_share,parks.ipynb:rule-based
+Mitte,#average_green_share,parks.ipynb:rule-based
+Neukölln,#low_green_share,parks.ipynb:rule-based
+Pankow,#average_green_share,parks.ipynb:rule-based
+Reinickendorf,#high_green_share,parks.ipynb:rule-based
+Spandau,#high_green_share,parks.ipynb:rule-based
+Steglitz-Zehlendorf,#high_green_share,parks.ipynb:rule-based
+Tempelhof-Schöneberg,#low_green_share,parks.ipynb:rule-based
+Treptow-Köpenick,#high_green_share,parks.ipynb:rule-based

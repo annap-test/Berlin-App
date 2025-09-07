@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#mobility;#moderate,mobility.ipynb:rule-based
+Friedrichshain-Kreuzberg,#mobility;#well-connected,mobility.ipynb:rule-based
+Lichtenberg,#mobility;#moderate,mobility.ipynb:rule-based
+Marzahn-Hellersdorf,#mobility;#moderate,mobility.ipynb:rule-based
+Mitte,#mobility;#well-connected,mobility.ipynb:rule-based
+Neukölln,#mobility;#well-connected,mobility.ipynb:rule-based
+Pankow,#mobility;#remote,mobility.ipynb:rule-based
+Reinickendorf,#mobility;#moderate,mobility.ipynb:rule-based
+Spandau,#mobility;#remote,mobility.ipynb:rule-based
+Steglitz-Zehlendorf,#mobility;#remote,mobility.ipynb:rule-based
+Tempelhof-Schöneberg,#mobility;#well-connected,mobility.ipynb:rule-based
+Treptow-Köpenick,#mobility;#remote,mobility.ipynb:rule-based

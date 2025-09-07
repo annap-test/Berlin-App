@@ -1,0 +1,73 @@
+district,hashtags,source
+Pankow,#high_income #high_safety #low_unemployment #average_density #low_diversity #affluent_and_safe #moderately_urban,districts_with_income:rule-based
+Mitte,#high_income #low_safety #high_unemployment #high_density #high_diversity #affluent_but_risky #vibrant_and_diverse,districts_with_income:rule-based
+Tempelhof-Schöneberg,#average_income #average_safety #average_unemployment #high_density #average_diversity #mixed_income_safety #moderately_urban,districts_with_income:rule-based
+Charlottenburg-Wilmersdorf,#high_income #low_safety #low_unemployment #average_density #high_diversity #affluent_but_risky #moderately_urban,districts_with_income:rule-based
+Neukölln,#low_income #low_safety #high_unemployment #high_density #high_diversity #disadvantaged_and_risky #vibrant_and_diverse,districts_with_income:rule-based
+Lichtenberg,#low_income #average_safety #average_unemployment #average_density #average_diversity #mixed_income_safety #moderately_urban,districts_with_income:rule-based
+Steglitz-Zehlendorf,#average_income #high_safety #low_unemployment #low_density #low_diversity #mixed_income_safety #quiet_and_homogeneous,districts_with_income:rule-based
+Treptow-Köpenick,#average_income #high_safety #low_unemployment #low_density #low_diversity #mixed_income_safety #quiet_and_homogeneous,districts_with_income:rule-based
+Marzahn-Hellersdorf,#low_income #high_safety #average_unemployment #average_density #low_diversity #affordable_and_safe #moderately_urban,districts_with_income:rule-based
+Friedrichshain-Kreuzberg,#high_income #low_safety #high_unemployment #high_density #high_diversity #affluent_but_risky #vibrant_and_diverse,districts_with_income:rule-based
+Reinickendorf,#average_income #average_safety #average_unemployment #low_density #average_diversity #mixed_income_safety #moderately_urban,districts_with_income:rule-based
+Spandau,#low_income #average_safety #high_unemployment #low_density #average_diversity #mixed_income_safety #moderately_urban,districts_with_income:rule-based
+Charlottenburg-Wilmersdorf,#playgrounds;#below-average,playgrounds.ipynb:rule-based
+Friedrichshain-Kreuzberg,#playgrounds;#above-average,playgrounds.ipynb:rule-based
+Lichtenberg,#playgrounds;#above-average,playgrounds.ipynb:rule-based
+Marzahn-Hellersdorf,#playgrounds;#average,playgrounds.ipynb:rule-based
+Mitte,#playgrounds;#above-average,playgrounds.ipynb:rule-based
+Neukölln,#playgrounds;#above-average,playgrounds.ipynb:rule-based
+Pankow,#playgrounds;#average,playgrounds.ipynb:rule-based
+Reinickendorf,#playgrounds;#below-average,playgrounds.ipynb:rule-based
+Spandau,#playgrounds;#below-average,playgrounds.ipynb:rule-based
+Steglitz-Zehlendorf,#playgrounds;#below-average,playgrounds.ipynb:rule-based
+Tempelhof-Schöneberg,#playgrounds;#above-average,playgrounds.ipynb:rule-based
+Treptow-Köpenick,#playgrounds;#below-average,playgrounds.ipynb:rule-based
+Charlottenburg-Wilmersdorf,#low_playground_density,playgrounds.ipynb:rule-based
+Friedrichshain-Kreuzberg,#high_playground_density,playgrounds.ipynb:rule-based
+Lichtenberg,#high_playground_density,playgrounds.ipynb:rule-based
+Marzahn-Hellersdorf,#average_playground_density,playgrounds.ipynb:rule-based
+Mitte,#high_playground_density,playgrounds.ipynb:rule-based
+Neukölln,#high_playground_density,playgrounds.ipynb:rule-based
+Pankow,#average_playground_density,playgrounds.ipynb:rule-based
+Reinickendorf,#low_playground_density,playgrounds.ipynb:rule-based
+Spandau,#low_playground_density,playgrounds.ipynb:rule-based
+Steglitz-Zehlendorf,#low_playground_density,playgrounds.ipynb:rule-based
+Tempelhof-Schöneberg,#high_playground_density,playgrounds.ipynb:rule-based
+Treptow-Köpenick,#low_playground_density,playgrounds.ipynb:rule-based
+Charlottenburg-Wilmersdorf,#high_green_share,parks.ipynb:rule-based
+Friedrichshain-Kreuzberg,#low_green_share,parks.ipynb:rule-based
+Lichtenberg,#average_green_share,parks.ipynb:rule-based
+Marzahn-Hellersdorf,#low_green_share,parks.ipynb:rule-based
+Mitte,#average_green_share,parks.ipynb:rule-based
+Neukölln,#low_green_share,parks.ipynb:rule-based
+Pankow,#average_green_share,parks.ipynb:rule-based
+Reinickendorf,#high_green_share,parks.ipynb:rule-based
+Spandau,#high_green_share,parks.ipynb:rule-based
+Steglitz-Zehlendorf,#high_green_share,parks.ipynb:rule-based
+Tempelhof-Schöneberg,#low_green_share,parks.ipynb:rule-based
+Treptow-Köpenick,#high_green_share,parks.ipynb:rule-based
+Charlottenburg-Wilmersdorf,#mobility;#moderate,mobility.ipynb:rule-based
+Friedrichshain-Kreuzberg,#mobility;#well-connected,mobility.ipynb:rule-based
+Lichtenberg,#mobility;#moderate,mobility.ipynb:rule-based
+Marzahn-Hellersdorf,#mobility;#moderate,mobility.ipynb:rule-based
+Mitte,#mobility;#well-connected,mobility.ipynb:rule-based
+Neukölln,#mobility;#well-connected,mobility.ipynb:rule-based
+Pankow,#mobility;#remote,mobility.ipynb:rule-based
+Reinickendorf,#mobility;#moderate,mobility.ipynb:rule-based
+Spandau,#mobility;#remote,mobility.ipynb:rule-based
+Steglitz-Zehlendorf,#mobility;#remote,mobility.ipynb:rule-based
+Tempelhof-Schöneberg,#mobility;#well-connected,mobility.ipynb:rule-based
+Treptow-Köpenick,#mobility;#remote,mobility.ipynb:rule-based
+Mitte,#venues;#vibrant,venues.ipynb:rule-based
+Friedrichshain-Kreuzberg,#venues;#vibrant,venues.ipynb:rule-based
+Pankow,#venues;#vibrant,venues.ipynb:rule-based
+Charlottenburg-Wilmersdorf,#venues;#vibrant,venues.ipynb:rule-based
+Spandau,#venues;#sparse,venues.ipynb:rule-based
+Treptow-Köpenick,#venues;#average,venues.ipynb:rule-based
+Steglitz-Zehlendorf,#venues;#average,venues.ipynb:rule-based
+Tempelhof-Schöneberg,#venues;#average,venues.ipynb:rule-based
+Marzahn-Hellersdorf,#venues;#sparse,venues.ipynb:rule-based
+Neukölln,#venues;#average,venues.ipynb:rule-based
+Lichtenberg,#venues;#sparse,venues.ipynb:rule-based
+Reinickendorf,#venues;#sparse,venues.ipynb:rule-based

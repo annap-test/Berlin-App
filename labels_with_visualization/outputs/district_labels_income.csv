@@ -1,0 +1,13 @@
+district,hashtags,source
+Charlottenburg-Wilmersdorf,#income;#high_income,districts_enriched.ipynb:imported
+Friedrichshain-Kreuzberg,#income;#high_income,districts_enriched.ipynb:imported
+Lichtenberg,#income;#low_income,districts_enriched.ipynb:imported
+Marzahn-Hellersdorf,#income;#low_income,districts_enriched.ipynb:imported
+Mitte,#income;#high_income,districts_enriched.ipynb:imported
+Neukölln,#income;#low_income,districts_enriched.ipynb:imported
+Pankow,#income;#high_income,districts_enriched.ipynb:imported
+Reinickendorf,#income;#average_income,districts_enriched.ipynb:imported
+Spandau,#income;#low_income,districts_enriched.ipynb:imported
+Steglitz-Zehlendorf,#income;#average_income,districts_enriched.ipynb:imported
+Tempelhof-Schöneberg,#income;#average_income,districts_enriched.ipynb:imported
+Treptow-Köpenick,#income;#average_income,districts_enriched.ipynb:imported
