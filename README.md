@@ -33,8 +33,10 @@ Quick start
 Run the app
    streamlit run app.py
 
+App docs
+- See `docs/app.md` for detailed documentation of `app.py` (inputs, features, scoring, mapping, deploy).
+
 Notes
 - Joins use `(district_id, neighborhood_canon)` where applicable; spatial joins for point datasets.
 - Areas use EPSG:25833 for accuracy; densities use an area floor of 0.20 km².
 - Percentile scaling uses p10–p90 → 0–100; terciles yield labels.
-
