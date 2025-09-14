@@ -145,7 +145,7 @@ if level == "Neighborhoods":
     # Descriptions for neighborhood metrics
     nei_desc = {
         "Venues vibrancy": "Combined venue density and variety; higher = more lively.",
-        "Mobility": "Public transport accessibility (U‑Bahn + bus/tram); higher = better connected.",
+        "Mobility": "Public transport accessibility (U-Bahn + S-Bahn + bus/tram); higher = better connected.",
         "Playgrounds density": "Playgrounds per km²; higher = more playground access.",
         "Green share": "Parks + forest as percentage of district area; higher = greener.",
     }
@@ -194,10 +194,10 @@ else:
         "Safety": "Crimes per 1,000 residents; lower = safer.",
         "Unemployment": "Unemployed per 1,000 residents; lower = better employment.",
         "Density": "Residents per km²; higher = more urban/compact.",
-        "Diversity": "Share of residents with migrant background or non‑German citizenship; higher = more diverse.",
+        "Diversity": "Share of residents with migrant background or non-German citizenship; higher = more diverse.",
         "Green share": "Parks + forest as percentage of district area; higher = greener.",
         "Vibrancy": "Combined venue density and variety; higher = more lively.",
-        "Mobility": "Public transport accessibility (U‑Bahn + bus/tram); higher = better connected.",
+        "Mobility": "Public transport accessibility (U-Bahn + S-Bahn + bus/tram); higher = better connected.",
         "Playgrounds density": "Playgrounds per km²; higher = more playground access.",
     }
     dist_items = [(name, dist_desc.get(name, "")) for name in features]

@@ -1,0 +1,354 @@
+station_id,station,line,latitude,longitude,district,district_id
+3,S+U Westhafen (Berlin),"['S41', 'S42', 'S46']",52.536218,13.344329,Mitte,11001001
+4,S+U Westhafen (Berlin),"['S41', 'S42', 'S46']",52.536318,13.344298,Mitte,11001001
+5,S Bellevue (Berlin),"['S3', 'S5', 'S7', 'S9']",52.519946,13.34809,Mitte,11001001
+6,S Bellevue (Berlin),"['S3', 'S5', 'S7', 'S9']",52.520012,13.348101,Mitte,11001001
+7,S Tiergarten (Berlin),"['S3', 'S5', 'S7', 'S9']",52.514419,13.336536,Mitte,11001001
+8,S Tiergarten (Berlin),"['S3', 'S5', 'S7', 'S9']",52.51444,13.33642,Mitte,11001001
+9,S+U Berlin Hauptbahnhof,"['S3', 'S5', 'S7', 'S9']",52.525147,13.369354,Mitte,11001001
+10,S+U Berlin Hauptbahnhof,"['S3', 'S5', 'S7', 'S9']",52.525261,13.369313,Mitte,11001001
+11,S+U Gesundbrunnen Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.549316,13.389883,Mitte,11001001
+12,S+U Gesundbrunnen Bhf (Berlin),"['S1', 'S2', 'S25', 'S26', 'S41', 'S42', 'S46', 'S8', 'S85']",52.549212,13.389895,Mitte,11001001
+13,S+U Gesundbrunnen Bhf (Berlin),"['S25', 'S26', 'S41', 'S46', 'S8', 'S85']",52.549131,13.389907,Mitte,11001001
+14,S+U Gesundbrunnen Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.549033,13.389919,Mitte,11001001
+15,S+U Jungfernheide Bhf (Berlin),"['S41', 'S46']",52.530363,13.299325,Charlottenburg-Wilmersdorf,11004004
+16,S+U Jungfernheide Bhf (Berlin),"['S42', 'S46']",52.530446,13.299292,Charlottenburg-Wilmersdorf,11004004
+17,S Beusselstr. (Berlin),"['S41', 'S42', 'S46']",52.534359,13.329406,Mitte,11001001
+18,S Beusselstr. (Berlin),"['S41', 'S42', 'S46']",52.534452,13.329361,Mitte,11001001
+21,S+U Zoologischer Garten Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.507031,13.331849,Charlottenburg-Wilmersdorf,11004004
+22,S+U Zoologischer Garten Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.507068,13.331736,Charlottenburg-Wilmersdorf,11004004
+23,S Charlottenburg Bhf (Berlin),"['S3', 'S41', 'S42', 'S45', 'S5', 'S7', 'S9']",52.504929,13.304487,Charlottenburg-Wilmersdorf,11004004
+24,S Charlottenburg Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.504988,13.304449,Charlottenburg-Wilmersdorf,11004004
+25,S Charlottenburg Bhf (Berlin),"['S3', 'S41', 'S45', 'S5', 'S7', 'S9']",52.50507,13.30439,Charlottenburg-Wilmersdorf,11004004
+26,S Charlottenburg Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.505135,13.304349,Charlottenburg-Wilmersdorf,11004004
+27,S Westkreuz (Berlin),"['S3', 'S5', 'S7', 'S9']",52.501095,13.284364,Charlottenburg-Wilmersdorf,11004004
+28,S Westkreuz (Berlin),"['S3', 'S5', 'S7', 'S9']",52.501013,13.284448,Charlottenburg-Wilmersdorf,11004004
+29,S Westkreuz (Berlin),"['S3', 'S5', 'S7', 'S9']",52.500888,13.28459,Charlottenburg-Wilmersdorf,11004004
+30,S Westkreuz (Berlin),"['S3', 'S5', 'S7', 'S9']",52.500813,13.284665,Charlottenburg-Wilmersdorf,11004004
+31,S Messe Nord/ZOB (Berlin),"['S41', 'S46']",52.507703,13.283556,Charlottenburg-Wilmersdorf,11004004
+32,S Messe Nord/ZOB (Berlin),"['S42', 'S46']",52.507739,13.283409,Charlottenburg-Wilmersdorf,11004004
+33,S Savignyplatz (Berlin),"['S3', 'S5', 'S7', 'S9']",52.505117,13.319066,Charlottenburg-Wilmersdorf,11004004
+34,S Olympiastadion (Berlin),"['S3', 'S5', 'S9']",52.511293,13.242806,Charlottenburg-Wilmersdorf,11004004
+35,S Olympiastadion (Berlin),"['S3', 'S5', 'S9']",52.511216,13.242843,Charlottenburg-Wilmersdorf,11004004
+36,S Messe Süd (Berlin),"['S3', 'S5', 'S9']",52.498568,13.270392,Charlottenburg-Wilmersdorf,11004004
+37,S Pichelsberg (Berlin),"['S3', 'S5', 'S9']",52.510181,13.227421,Charlottenburg-Wilmersdorf,11004004
+38,S Pichelsberg (Berlin),"['S3', 'S5', 'S9']",52.510241,13.227488,Charlottenburg-Wilmersdorf,11004004
+39,S Heerstr. (Berlin),"['S3', 'S5', 'S9']",52.507814,13.259813,Charlottenburg-Wilmersdorf,11004004
+40,S Westend (Berlin),"['S41', 'S42', 'S46']",52.517888,13.284378,Charlottenburg-Wilmersdorf,11004004
+41,S Westend (Berlin),"['S42', 'S46']",52.517906,13.284555,Charlottenburg-Wilmersdorf,11004004
+42,S Spandau Bhf (Berlin),"['S3', 'S9']",52.534774,13.197557,Spandau,11005005
+43,S Spandau Bhf (Berlin),"['S3', 'S9']",52.53472,13.197532,Spandau,11005005
+44,S Halensee (Berlin),"['S41', 'S42', 'S45', 'S46']",52.496038,13.290596,Charlottenburg-Wilmersdorf,11004004
+45,S Hohenzollerndamm (Berlin),"['S41', 'S42', 'S45', 'S46']",52.488671,13.300271,Charlottenburg-Wilmersdorf,11004004
+46,S+U Bundesplatz (Berlin),"['S41', 'S45', 'S46']",52.477687,13.329539,Charlottenburg-Wilmersdorf,11004004
+47,S+U Bundesplatz (Berlin),"['S42', 'S45', 'S46']",52.477611,13.329544,Charlottenburg-Wilmersdorf,11004004
+48,S+U Heidelberger Platz (Berlin),"['S41', 'S45', 'S46']",52.480059,13.311856,Charlottenburg-Wilmersdorf,11004004
+49,S+U Heidelberger Platz (Berlin),"['S42', 'S45', 'S46']",52.480026,13.311782,Charlottenburg-Wilmersdorf,11004004
+50,S Grunewald (Berlin),"['S3', 'S7']",52.48837,13.260926,Charlottenburg-Wilmersdorf,11004004
+51,S Grunewald (Berlin),"['S3', 'S5', 'S7']",52.488309,13.261033,Charlottenburg-Wilmersdorf,11004004
+52,S Grunewald (Berlin),"['S3', 'S5', 'S7']",52.488258,13.261105,Charlottenburg-Wilmersdorf,11004004
+53,S Grunewald (Berlin),"['S3', 'S5', 'S7']",52.488179,13.261234,Charlottenburg-Wilmersdorf,11004004
+54,S Wannsee Bhf (Berlin),['S7'],52.421667,13.179986,Steglitz-Zehlendorf,11006006
+55,S Wannsee Bhf (Berlin),"['S1', 'S7']",52.421604,13.180082,Steglitz-Zehlendorf,11006006
+56,S Wannsee Bhf (Berlin),['S1'],52.421546,13.180177,Steglitz-Zehlendorf,11006006
+57,S Wannsee Bhf (Berlin),"['S1', 'S7']",52.421479,13.180296,Steglitz-Zehlendorf,11006006
+58,S+U Innsbrucker Platz (Berlin),"['S41', 'S45', 'S46']",52.478176,13.341468,Tempelhof-Schöneberg,11007007
+59,S+U Innsbrucker Platz (Berlin),"['S42', 'S45', 'S46']",52.478047,13.341463,Tempelhof-Schöneberg,11007007
+60,S Priesterweg (Berlin),['S2'],52.459921,13.356187,Tempelhof-Schöneberg,11007007
+61,S Priesterweg (Berlin),['S2'],52.459905,13.356324,Tempelhof-Schöneberg,11007007
+62,S Priesterweg (Berlin),"['S25', 'S26']",52.459934,13.356075,Tempelhof-Schöneberg,11007007
+63,S Priesterweg (Berlin),"['S25', 'S26']",52.459892,13.356434,Tempelhof-Schöneberg,11007007
+64,S Südende (Berlin),"['S25', 'S26']",52.448211,13.353647,Steglitz-Zehlendorf,11006006
+65,S Südende (Berlin),"['S25', 'S26']",52.44818,13.353755,Steglitz-Zehlendorf,11006006
+66,S Lichterfelde Süd (Berlin),"['S25', 'S26']",52.41025,13.308587,Steglitz-Zehlendorf,11006006
+67,S Lichterfelde Süd (Berlin),"['S25', 'S26']",52.410219,13.308767,Steglitz-Zehlendorf,11006006
+68,S Osdorfer Str. (Berlin),"['S25', 'S26']",52.418911,13.314214,Steglitz-Zehlendorf,11006006
+69,S Osdorfer Str. (Berlin),"['S25', 'S26']",52.418882,13.314304,Steglitz-Zehlendorf,11006006
+70,S Lichterfelde Ost Bhf (Berlin),"['S25', 'S26']",52.430002,13.32813,Steglitz-Zehlendorf,11006006
+71,S Lichterfelde Ost Bhf (Berlin),"['S25', 'S26']",52.429919,13.328299,Steglitz-Zehlendorf,11006006
+72,S Lankwitz (Berlin),"['S25', 'S26']",52.438757,13.342041,Steglitz-Zehlendorf,11006006
+73,S+U Tempelhof (Berlin),"['S41', 'S45', 'S46']",52.471027,13.384476,Tempelhof-Schöneberg,11007007
+74,S+U Tempelhof (Berlin),"['S42', 'S45', 'S46']",52.470922,13.384416,Tempelhof-Schöneberg,11007007
+75,S Attilastr. (Berlin),['S2'],52.447898,13.360727,Tempelhof-Schöneberg,11007007
+76,S Attilastr. (Berlin),['S2'],52.447931,13.360892,Tempelhof-Schöneberg,11007007
+77,S Buckower Chaussee (Berlin),['S2'],52.410239,13.382877,Tempelhof-Schöneberg,11007007
+78,S Buckower Chaussee (Berlin),['S2'],52.410252,13.382984,Tempelhof-Schöneberg,11007007
+79,S Marienfelde (Berlin),['S2'],52.424278,13.374587,Tempelhof-Schöneberg,11007007
+80,S Marienfelde (Berlin),['S2'],52.424296,13.374679,Tempelhof-Schöneberg,11007007
+81,S Lichtenrade (Berlin),['S2'],52.387069,13.396301,Tempelhof-Schöneberg,11007007
+82,S Schichauweg (Berlin),['S2'],52.399129,13.388959,Tempelhof-Schöneberg,11007007
+83,S Schichauweg (Berlin),['S2'],52.399155,13.389089,Tempelhof-Schöneberg,11007007
+84,S Sonnenallee (Berlin),['S41'],52.47299,13.455632,Neukölln,11008008
+85,S Sonnenallee (Berlin),['S42'],52.472954,13.455771,Neukölln,11008008
+86,S Köllnische Heide (Berlin),"['S41', 'S45', 'S46', 'S47']",52.469676,13.46806,Neukölln,11008008
+87,S Köllnische Heide (Berlin),"['S42', 'S45', 'S46', 'S47']",52.4696,13.468084,Neukölln,11008008
+88,S+U Neukölln (Berlin),"['S41', 'S45', 'S46', 'S47']",52.469492,13.443156,Neukölln,11008008
+89,S+U Neukölln (Berlin),"['S42', 'S45', 'S46', 'S47']",52.469373,13.443216,Neukölln,11008008
+90,S+U Hermannstr. (Berlin),"['S41', 'S45', 'S46', 'S47']",52.46769,13.431204,Neukölln,11008008
+91,S+U Hermannstr. (Berlin),"['S42', 'S45', 'S46', 'S47']",52.467578,13.431255,Neukölln,11008008
+92,S Alt-Reinickendorf (Berlin),['S25'],52.577776,13.351235,Reinickendorf,11012012
+93,S Schönholz (Berlin),"['S1', 'S25', 'S26', 'S85']",52.571473,13.381121,Reinickendorf,11012012
+94,S Schönholz (Berlin),"['S1', 'S25', 'S26', 'S85']",52.571407,13.381026,Reinickendorf,11012012
+95,S Tegel (Berlin),['S25'],52.588123,13.289879,Reinickendorf,11012012
+96,S Tegel (Berlin),['S25'],52.588072,13.289675,Reinickendorf,11012012
+97,S Heiligensee (Berlin),['S25'],52.624476,13.229361,Reinickendorf,11012012
+98,S Heiligensee (Berlin),['S25'],52.62453,13.229471,Reinickendorf,11012012
+99,S Schulzendorf (Berlin),['S25'],52.612931,13.246032,Reinickendorf,11012012
+100,S Eichborndamm (Berlin),['S25'],52.577688,13.317219,Reinickendorf,11012012
+101,S+U Karl-Bonhoeffer-Nervenklinik (Berlin),['S25'],52.578017,13.328994,Reinickendorf,11012012
+102,S+U Friedrichstr. Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.520364,13.38716,Mitte,11001001
+103,S+U Friedrichstr. Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.520458,13.387211,Mitte,11001001
+104,S Hackescher Markt (Berlin),"['S3', 'S5', 'S7', 'S9']",52.522663,13.402462,Mitte,11001001
+105,S Hackescher Markt (Berlin),"['S3', 'S5', 'S7', 'S9']",52.522726,13.40243,Mitte,11001001
+106,S+U Alexanderplatz Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.52152,13.411226,Mitte,11001001
+107,S+U Alexanderplatz Bhf (Berlin),"['S3', 'S5', 'S7', 'S9']",52.521589,13.411357,Mitte,11001001
+108,S+U Jannowitzbrücke (Berlin),"['S3', 'S5', 'S7', 'S9']",52.514193,13.419471,Mitte,11001001
+109,S+U Jannowitzbrücke (Berlin),"['S3', 'S5', 'S7', 'S9']",52.51425,13.419526,Mitte,11001001
+110,S+U Schönhauser Allee (Berlin),"['S41', 'S8', 'S85']",52.549274,13.415186,Pankow,11003003
+111,S+U Schönhauser Allee (Berlin),"['S42', 'S8', 'S85']",52.549382,13.415241,Pankow,11003003
+112,S Prenzlauer Allee (Berlin),"['S41', 'S8', 'S85']",52.544757,13.425865,Pankow,11003003
+113,S Prenzlauer Allee (Berlin),"['S42', 'S8', 'S85']",52.54486,13.425975,Pankow,11003003
+114,S Bornholmer Str. (Berlin),"['S1', 'S25', 'S26', 'S85']",52.554619,13.397673,Pankow,11003003
+115,S Bornholmer Str. (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.554628,13.397809,Pankow,11003003
+116,S Bornholmer Str. (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.55463,13.39794,Pankow,11003003
+117,S Bornholmer Str. (Berlin),"['S1', 'S2', 'S25', 'S26', 'S85']",52.554635,13.39808,Pankow,11003003
+118,S Ostkreuz Bhf (Berlin),"['S3', 'S5', 'S7', 'S75']",52.503509,13.468841,Friedrichshain-Kreuzberg,11002002
+119,S Ostbahnhof (Berlin),"['S3', 'S5', 'S7', 'S9']",52.510515,13.435336,Friedrichshain-Kreuzberg,11002002
+120,S Ostbahnhof (Berlin),"['S3', 'S5', 'S7', 'S75', 'S9']",52.510594,13.435426,Friedrichshain-Kreuzberg,11002002
+121,S Ostbahnhof (Berlin),"['S3', 'S5', 'S7', 'S75', 'S9']",52.510646,13.435474,Friedrichshain-Kreuzberg,11002002
+122,S Ostbahnhof (Berlin),"['S3', 'S5', 'S7', 'S9']",52.510717,13.435552,Friedrichshain-Kreuzberg,11002002
+123,S Pankow-Heinersdorf (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.578081,13.429448,Pankow,11003003
+124,S Pankow-Heinersdorf (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.578039,13.429576,Pankow,11003003
+125,S+U Pankow (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.566222,13.410354,Pankow,11003003
+126,S+U Pankow (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.566292,13.41026,Pankow,11003003
+127,S Wollankstr. (Berlin),"['S1', 'S25', 'S85']",52.565329,13.392139,Pankow,11003003
+128,S Wollankstr. (Berlin),"['S1', 'S25', 'S26', 'S85']",52.565283,13.392058,Pankow,11003003
+129,S Buch (Berlin),['S2'],52.635818,13.491694,Pankow,11003003
+130,S Blankenburg (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.591376,13.443308,Pankow,11003003
+131,S Blankenburg (Berlin),"['S1', 'S2', 'S25', 'S26', 'S8', 'S85']",52.591334,13.443411,Pankow,11003003
+132,S Karow Bhf (Berlin),['S2'],52.615235,13.469409,Pankow,11003003
+133,S Wartenberg (Berlin),['S75'],52.573076,13.50379,Lichtenberg,11011011
+134,S Wartenberg (Berlin),['S75'],52.573023,13.503676,Lichtenberg,11011011
+135,S Hohenschönhausen Bhf (Berlin),['S75'],52.566268,13.512604,Lichtenberg,11011011
+136,S Hohenschönhausen Bhf (Berlin),['S75'],52.56622,13.512489,Lichtenberg,11011011
+137,S Gehrenseestr. (Berlin),['S75'],52.556471,13.524843,Lichtenberg,11011011
+138,S Gehrenseestr. (Berlin),['S75'],52.556425,13.524692,Lichtenberg,11011011
+139,S Rummelsburg (Berlin),['S3'],52.501235,13.478701,Lichtenberg,11011011
+140,S Rummelsburg (Berlin),['S3'],52.501169,13.478667,Lichtenberg,11011011
+141,S Betriebsbahnhof Rummelsburg (Berlin),['S3'],52.493969,13.497724,Lichtenberg,11011011
+142,S Nöldnerplatz (Berlin),"['S5', 'S7', 'S75']",52.503801,13.485385,Lichtenberg,11011011
+143,S Nöldnerplatz (Berlin),"['S5', 'S7', 'S75', 'S9']",52.503881,13.485281,Lichtenberg,11011011
+144,S+U Lichtenberg Bhf (Berlin),"['S5', 'S7', 'S75']",52.51022,13.497972,Lichtenberg,11011011
+145,S+U Lichtenberg Bhf (Berlin),"['S5', 'S7', 'S75', 'S9']",52.510303,13.497825,Lichtenberg,11011011
+146,S Karlshorst (Berlin),['S3'],52.480538,13.527019,Lichtenberg,11011011
+147,S Karlshorst (Berlin),['S3'],52.480602,13.5271,Lichtenberg,11011011
+148,S Marzahn (Berlin),['S7'],52.543259,13.541126,Marzahn-Hellersdorf,11010010
+149,S Marzahn (Berlin),['S7'],52.543322,13.540944,Marzahn-Hellersdorf,11010010
+150,S Raoul-Wallenberg-Str. (Berlin),['S7'],52.550735,13.547678,Marzahn-Hellersdorf,11010010
+151,S Raoul-Wallenberg-Str. (Berlin),['S7'],52.550783,13.547532,Marzahn-Hellersdorf,11010010
+152,S Mehrower Allee (Berlin),['S7'],52.557752,13.553721,Marzahn-Hellersdorf,11010010
+153,S Mehrower Allee (Berlin),['S7'],52.557792,13.553592,Marzahn-Hellersdorf,11010010
+154,S Ahrensfelde Bhf (Berlin),['S7'],52.57132,13.565711,Marzahn-Hellersdorf,11010010
+155,S Ahrensfelde Bhf (Berlin),['S7'],52.571349,13.565592,Marzahn-Hellersdorf,11010010
+156,S Poelchaustr. (Berlin),['S7'],52.53564,13.53555,Marzahn-Hellersdorf,11010010
+157,S Poelchaustr. (Berlin),['S7'],52.535662,13.535393,Marzahn-Hellersdorf,11010010
+158,S Biesdorf (Berlin),['S5'],52.513095,13.556379,Marzahn-Hellersdorf,11010010
+159,S Biesdorf (Berlin),['S5'],52.513066,13.555982,Marzahn-Hellersdorf,11010010
+160,S Friedrichsfelde Ost (Berlin),"['S5', 'S7', 'S75']",52.514058,13.519948,Marzahn-Hellersdorf,11010010
+161,S Friedrichsfelde Ost (Berlin),"['S5', 'S7', 'S75']",52.514179,13.519948,Marzahn-Hellersdorf,11010010
+162,S Springpfuhl (Berlin),"['S7', 'S75']",52.527086,13.536604,Marzahn-Hellersdorf,11010010
+163,S Springpfuhl (Berlin),"['S7', 'S75']",52.52707,13.536465,Marzahn-Hellersdorf,11010010
+164,S+U Wuhletal (Berlin),['S5'],52.512452,13.575181,Marzahn-Hellersdorf,11010010
+165,S Kaulsdorf (Berlin),['S5'],52.512165,13.590481,Marzahn-Hellersdorf,11010010
+166,S Kaulsdorf (Berlin),['S5'],52.512076,13.590479,Marzahn-Hellersdorf,11010010
+167,S Mahlsdorf Bhf (Berlin),['S5'],52.512253,13.610598,Marzahn-Hellersdorf,11010010
+168,S Mahlsdorf Bhf (Berlin),['S5'],52.512137,13.610641,Marzahn-Hellersdorf,11010010
+169,S Mahlsdorf Bhf (Berlin),['S5'],52.512091,13.610667,Marzahn-Hellersdorf,11010010
+170,S Mahlsdorf Bhf (Berlin),['S5'],52.511972,13.61072,Marzahn-Hellersdorf,11010010
+171,S Köpenick (Berlin),['S3'],52.458653,13.581491,Treptow-Köpenick,11009009
+172,S Köpenick (Berlin),['S3'],52.458514,13.581459,Treptow-Köpenick,11009009
+173,S Wuhlheide (Berlin),['S3'],52.468668,13.55424,Treptow-Köpenick,11009009
+174,S Wuhlheide (Berlin),['S3'],52.468594,13.554145,Treptow-Köpenick,11009009
+175,S Spindlersfeld (Berlin),['S47'],52.447135,13.561301,Treptow-Köpenick,11009009
+176,S Hirschgarten (Berlin),['S3'],52.45795,13.603123,Treptow-Köpenick,11009009
+177,S Hirschgarten (Berlin),['S3'],52.457868,13.603123,Treptow-Köpenick,11009009
+178,S Friedrichshagen (Berlin),['S3'],52.457329,13.623213,Treptow-Köpenick,11009009
+179,S Rahnsdorf (Berlin),['S3'],52.451598,13.689921,Treptow-Köpenick,11009009
+180,S Rahnsdorf (Berlin),['S3'],52.451677,13.689947,Treptow-Köpenick,11009009
+181,S Wilhelmshagen (Berlin),['S3'],52.438536,13.722166,Treptow-Köpenick,11009009
+182,S Wilhelmshagen (Berlin),['S3'],52.438589,13.722319,Treptow-Köpenick,11009009
+183,S Baumschulenweg (Berlin),"['S41', 'S8', 'S85', 'S9']",52.467495,13.489615,Treptow-Köpenick,11009009
+184,S Baumschulenweg (Berlin),"['S41', 'S45', 'S46', 'S47', 'S8', 'S85', 'S9']",52.467637,13.489731,Treptow-Köpenick,11009009
+185,S Baumschulenweg (Berlin),"['S42', 'S45', 'S46', 'S47']",52.467537,13.489686,Treptow-Köpenick,11009009
+186,S Plänterwald (Berlin),"['S41', 'S8', 'S85', 'S9']",52.478467,13.47327,Treptow-Köpenick,11009009
+187,S Plänterwald (Berlin),"['S8', 'S85', 'S9']",52.47853,13.47339,Treptow-Köpenick,11009009
+188,S Schöneweide Bhf (Berlin),"['S41', 'S42', 'S45', 'S46', 'S47', 'S8', 'S85', 'S9']",52.454742,13.50973,Treptow-Köpenick,11009009
+189,S Schöneweide Bhf (Berlin),"['S45', 'S46', 'S47', 'S85', 'S9']",52.4548,13.50983,Treptow-Köpenick,11009009
+190,S Schöneweide Bhf (Berlin),"['S41', 'S42', 'S46', 'S47', 'S8', 'S85', 'S9']",52.45485,13.509917,Treptow-Köpenick,11009009
+191,S Schöneweide Bhf (Berlin),"['S41', 'S45', 'S46', 'S8', 'S85', 'S9']",52.454912,13.510019,Treptow-Köpenick,11009009
+192,S Oberspree (Berlin),['S47'],52.452447,13.538028,Treptow-Köpenick,11009009
+193,S Johannisthal (Berlin),"['S41', 'S42', 'S45', 'S46', 'S8', 'S85', 'S9']",52.44662,13.524071,Treptow-Köpenick,11009009
+194,S Johannisthal (Berlin),"['S41', 'S45', 'S46', 'S8', 'S85', 'S9']",52.446662,13.524141,Treptow-Köpenick,11009009
+195,S Adlershof (Berlin),"['S41', 'S42', 'S45', 'S46', 'S8', 'S85', 'S9']",52.434867,13.541224,Treptow-Köpenick,11009009
+196,S Adlershof (Berlin),"['S41', 'S45', 'S46', 'S8', 'S85', 'S9']",52.434946,13.541382,Treptow-Köpenick,11009009
+197,S Stresow (Berlin),"['S3', 'S9']",52.531988,13.209206,Spandau,11005005
+230,S Olympiastadion (Berlin),['S5'],52.511565,13.242684,Charlottenburg-Wilmersdorf,11004004
+231,S Olympiastadion (Berlin),['S3'],52.511727,13.242607,Charlottenburg-Wilmersdorf,11004004
+232,S+U Gesundbrunnen Bhf (Berlin),"['S1', 'S2', 'S25', 'S41', 'S42']",52.549019,13.388385,Mitte,11001001
+233,S Humboldthain (Berlin),"['S1', 'S2', 'S25', 'S41', 'S42']",52.54457,13.378451,Mitte,11001001
+234,S Bornholmer Str. (Berlin),"['S1', 'S2', 'S8']",52.554898,13.393573,Mitte,11001001
+238,S+U Wedding (Berlin),"['S41', 'S42', 'S46']",52.543042,13.367693,Mitte,11001001
+239,S+U Wedding (Berlin),"['S41', 'S42', 'S46']",52.543102,13.367604,Mitte,11001001
+240,S+U Schönhauser Allee (Berlin),"['S41', 'S42']",52.549545,13.413923,Pankow,11003003
+241,S Blankenburg (Berlin),"['S2', 'S8']",52.590922,13.442374,Pankow,11003003
+245,S Heiligensee (Berlin),['S25'],52.625199,13.229701,Reinickendorf,11012012
+246,S Pankow-Heinersdorf (Berlin),"['S2', 'S8']",52.57726,13.428149,Pankow,11003003
+247,S Karow Bhf (Berlin),['S2'],52.615426,13.470859,Pankow,11003003
+248,S+U Pankow (Berlin),"['S2', 'S8']",52.565793,13.412278,Pankow,11003003
+249,S Springpfuhl (Berlin),['S75'],52.525814,13.535266,Marzahn-Hellersdorf,11010010
+250,S Buch (Berlin),['S2'],52.637134,13.491959,Pankow,11003003
+251,S Spindlersfeld (Berlin),['S47'],52.445913,13.563519,Treptow-Köpenick,11009009
+252,S Schöneweide Bhf (Berlin),['S47'],52.455897,13.510494,Treptow-Köpenick,11009009
+256,Alt-Buch (Berlin),['S2'],52.636848,13.502959,Pankow,11003003
+259,S Lankwitz (Berlin),['S25'],52.438752,13.343763,Steglitz-Zehlendorf,11006006
+260,S Humboldthain (Berlin),"['S1', 'S2', 'S25', 'S26']",52.544883,13.379364,Mitte,11001001
+261,S Humboldthain (Berlin),"['S1', 'S2', 'S25', 'S26']",52.544856,13.379497,Mitte,11001001
+262,S Zehlendorf (Berlin),['S1'],52.430997,13.258035,Steglitz-Zehlendorf,11006006
+263,S Zehlendorf (Berlin),['S1'],52.430876,13.25814,Steglitz-Zehlendorf,11006006
+264,S Sundgauer Str. (Berlin),['S1'],52.436375,13.273898,Steglitz-Zehlendorf,11006006
+265,S Sundgauer Str. (Berlin),['S1'],52.436317,13.27395,Steglitz-Zehlendorf,11006006
+266,S Mexikoplatz (Berlin),['S1'],52.436783,13.233258,Steglitz-Zehlendorf,11006006
+267,S Mexikoplatz (Berlin),['S1'],52.436719,13.233192,Steglitz-Zehlendorf,11006006
+268,S Schlachtensee (Berlin),['S1'],52.440146,13.215488,Steglitz-Zehlendorf,11006006
+269,S Schlachtensee (Berlin),['S1'],52.440069,13.215529,Steglitz-Zehlendorf,11006006
+270,S Nikolassee (Berlin),['S1'],52.431802,13.194064,Steglitz-Zehlendorf,11006006
+271,S Nikolassee (Berlin),['S1'],52.431741,13.194195,Steglitz-Zehlendorf,11006006
+272,S Schöneberg (Berlin),['S1'],52.479248,13.351921,Tempelhof-Schöneberg,11007007
+273,S Schöneberg (Berlin),['S1'],52.479308,13.351781,Tempelhof-Schöneberg,11007007
+274,S+U Yorckstr. (Großgörschenstr.) (Berlin),['S1'],52.492301,13.367777,Tempelhof-Schöneberg,11007007
+275,S+U Yorckstr. (Großgörschenstr.) (Berlin),['S1'],52.492245,13.367968,Tempelhof-Schöneberg,11007007
+276,S Friedenau (Berlin),['S1'],52.470498,13.341152,Tempelhof-Schöneberg,11007007
+277,S Friedenau (Berlin),['S1'],52.470453,13.341258,Tempelhof-Schöneberg,11007007
+278,S+U Rathaus Steglitz (Berlin),['S1'],52.45545,13.322332,Steglitz-Zehlendorf,11006006
+279,S+U Rathaus Steglitz (Berlin),['S1'],52.455394,13.322476,Steglitz-Zehlendorf,11006006
+280,S Feuerbachstr. (Berlin),['S1'],52.463431,13.332339,Steglitz-Zehlendorf,11006006
+281,S Feuerbachstr. (Berlin),['S1'],52.463397,13.332414,Steglitz-Zehlendorf,11006006
+282,S Lichterfelde West (Berlin),['S1'],52.443216,13.293109,Steglitz-Zehlendorf,11006006
+283,S Lichterfelde West (Berlin),['S1'],52.443101,13.293216,Steglitz-Zehlendorf,11006006
+284,S Botanischer Garten (Berlin),['S1'],52.448005,13.307177,Steglitz-Zehlendorf,11006006
+285,S Botanischer Garten (Berlin),['S1'],52.44796,13.307229,Steglitz-Zehlendorf,11006006
+286,S+U Wuhletal (Berlin),['S5'],52.512766,13.575204,Marzahn-Hellersdorf,11010010
+287,S Schönholz (Berlin),"['S1', 'S1A', 'S25']",52.571733,13.380018,Reinickendorf,11012012
+288,S Eichborndamm (Berlin),['S25'],52.57642,13.31582,Reinickendorf,11012012
+289,S Wilhelmsruh (Berlin),"['S1', 'S26', 'S85']",52.581656,13.362192,Reinickendorf,11012012
+290,S Wilhelmsruh (Berlin),"['S1', 'S26', 'S85']",52.581723,13.3623,Reinickendorf,11012012
+291,S Lichterfelde Ost Bhf (Berlin),['S25'],52.428729,13.327922,Steglitz-Zehlendorf,11006006
+292,S Südkreuz Bhf (Berlin),"['S2', 'S25', 'S26']",52.47619,13.365085,Tempelhof-Schöneberg,11007007
+293,S Südkreuz Bhf (Berlin),"['S2', 'S25', 'S26']",52.476146,13.365282,Tempelhof-Schöneberg,11007007
+294,S Hohenschönhausen Bhf (Berlin),['S75'],52.566472,13.513129,Lichtenberg,11011011
+295,S Westkreuz (Berlin),"['S41', 'S46']",52.500854,13.283931,Charlottenburg-Wilmersdorf,11004004
+296,S Westkreuz (Berlin),"['S42', 'S46']",52.500811,13.28379,Charlottenburg-Wilmersdorf,11004004
+297,S Nikolassee (Berlin),['S7'],52.432185,13.193136,Steglitz-Zehlendorf,11006006
+298,S Nikolassee (Berlin),['S7'],52.432172,13.193273,Steglitz-Zehlendorf,11006006
+299,S Schöneberg (Berlin),"['S41', 'S45', 'S46']",52.479325,13.351584,Tempelhof-Schöneberg,11007007
+300,S Schöneberg (Berlin),"['S42', 'S45', 'S46']",52.47924,13.351632,Tempelhof-Schöneberg,11007007
+301,S Südkreuz Bhf (Berlin),"['S41', 'S45', 'S46']",52.475881,13.365602,Tempelhof-Schöneberg,11007007
+302,S Südkreuz Bhf (Berlin),"['S42', 'S45', 'S46']",52.475662,13.365184,Tempelhof-Schöneberg,11007007
+305,S+U Yorckstr. (Berlin),"['S2', 'S25', 'S26']",52.491339,13.372006,Tempelhof-Schöneberg,11007007
+306,S+U Yorckstr. (Berlin),"['S2', 'S25', 'S26']",52.491334,13.372158,Tempelhof-Schöneberg,11007007
+307,S Grünau (Berlin),"['S42', 'S45', 'S46', 'S8', 'S85', 'S9']",52.412432,13.573957,Treptow-Köpenick,11009009
+308,S Grünau (Berlin),"['S41', 'S42', 'S46', 'S8', 'S85', 'S9']",52.412481,13.574059,Treptow-Köpenick,11009009
+309,S Grünau (Berlin),"['S41', 'S46', 'S8', 'S85', 'S9']",52.412518,13.574189,Treptow-Köpenick,11009009
+310,S Grünau (Berlin),"['S41', 'S45', 'S46', 'S8']",52.412568,13.574282,Treptow-Köpenick,11009009
+311,S Anhalter Bahnhof (Berlin),"['S1', 'S2', 'S25', 'S26']",52.503564,13.381396,Friedrichshain-Kreuzberg,11002002
+312,S Anhalter Bahnhof (Berlin),"['S1', 'S2', 'S26']",52.503542,13.381498,Friedrichshain-Kreuzberg,11002002
+313,S Anhalter Bahnhof (Berlin),"['S2', 'S25', 'S26']",52.503514,13.381617,Friedrichshain-Kreuzberg,11002002
+314,S+U Potsdamer Platz Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.509605,13.376454,Mitte,11001001
+315,S+U Potsdamer Platz Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.509605,13.376579,Mitte,11001001
+316,S+U Potsdamer Platz Bhf (Berlin),"['S1', 'S2']",52.509638,13.376708,Mitte,11001001
+317,S+U Potsdamer Platz Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.509635,13.376837,Mitte,11001001
+318,S Nordbahnhof (Berlin),"['S1', 'S2', 'S25', 'S26']",52.532334,13.387507,Mitte,11001001
+319,S Nordbahnhof (Berlin),"['S1', 'S2', 'S25', 'S26']",52.532421,13.387655,Mitte,11001001
+320,S+U Friedrichstr. Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.520479,13.386234,Mitte,11001001
+321,S+U Friedrichstr. Bhf (Berlin),"['S1', 'S2', 'S25', 'S26']",52.520424,13.38635,Mitte,11001001
+322,S Oranienburger Str. (Berlin),"['S1', 'S2', 'S25', 'S26']",52.525287,13.392985,Mitte,11001001
+323,S Oranienburger Str. (Berlin),"['S1', 'S2', 'S25', 'S26']",52.525264,13.393093,Mitte,11001001
+324,S+U Brandenburger Tor (Berlin),"['S1', 'S2', 'S25', 'S26']",52.516351,13.38169,Mitte,11001001
+325,S+U Brandenburger Tor (Berlin),"['S1', 'S2', 'S25', 'S26']",52.516483,13.381658,Mitte,11001001
+327,S Tegel (Berlin),['S25'],52.588499,13.288419,Reinickendorf,11012012
+328,S Schulzendorf (Berlin),['S25'],52.613644,13.246172,Reinickendorf,11012012
+329,S Anhalter Bahnhof (Berlin),"['S25', 'S26']",52.50359,13.381283,Friedrichshain-Kreuzberg,11002002
+330,S Frohnau (Berlin),"['S1', 'S1A', 'S1X']",52.632435,13.288737,Reinickendorf,11012012
+331,S Julius-Leber-Brücke (Berlin),['S1'],52.48645,13.361028,Tempelhof-Schöneberg,11007007
+332,S Julius-Leber-Brücke (Berlin),['S1'],52.486411,13.361128,Tempelhof-Schöneberg,11007007
+333,S Wilhelmsruh (Berlin),"['S1', 'S1A']",52.580535,13.363369,Reinickendorf,11012012
+334,Alt-Buch/Wiltbergstr. (Berlin),['S2'],52.634236,13.497208,Pankow,11003003
+335,Bärenlauchstr. (Berlin),['S47'],52.450712,13.540192,Treptow-Köpenick,11009009
+338,U Paracelsus-Bad (Berlin),['S25'],52.575349,13.34761,Reinickendorf,11012012
+339,Ollenhauerstr./Lindauer Allee (Berlin),['S25'],52.575568,13.331573,Reinickendorf,11012012
+340,U Alt-Tegel (Berlin),['S25'],52.590209,13.282717,Reinickendorf,11012012
+341,S Greifswalder Str. (Berlin),"['S41', 'S42']",52.539884,13.437639,Pankow,11003003
+342,"Berlin, Hirschgartendreieck",['S3H'],52.451767,13.600317,Treptow-Köpenick,11009009
+343,S Hermsdorf (Berlin),"['S1', 'S26', 'S85']",52.617336,13.307756,Reinickendorf,11012012
+344,S Waidmannslust (Berlin),"['S1', 'S1A']",52.606681,13.320067,Reinickendorf,11012012
+345,Göschenplatz/S Wittenau (Berlin),"['S1', 'S1A']",52.597237,13.332339,Reinickendorf,11012012
+346,"Berlin, Brandenburgplatz",['S3H'],52.455294,13.590509,Treptow-Köpenick,11009009
+347,Bruno-Bürgel-Weg (Berlin),['S47'],52.452121,13.533203,Treptow-Köpenick,11009009
+348,S Altglienicke (Berlin),"['S45', 'S9']",52.407359,13.558798,Treptow-Köpenick,11009009
+349,S Altglienicke (Berlin),"['S45', 'S9']",52.407309,13.558877,Treptow-Köpenick,11009009
+350,S Grünbergallee (Berlin),"['S45', 'S9']",52.399343,13.541956,Treptow-Köpenick,11009009
+351,S Grünbergallee (Berlin),"['S45', 'S9']",52.399271,13.541989,Treptow-Köpenick,11009009
+357,S Prenzlauer Allee (Berlin),"['S41', 'S42']",52.544854,13.427672,Pankow,11003003
+358,S Ostkreuz Bhf (Berlin),"['S3', 'S5', 'S7', 'S75']",52.503125,13.468633,Friedrichshain-Kreuzberg,11002002
+359,S Ostkreuz Bhf (Berlin),"['S5', 'S75']",52.503282,13.46871,Friedrichshain-Kreuzberg,11002002
+360,S+U Warschauer Str. (Berlin),"['S3', 'S5', 'S75', 'S9']",52.506306,13.450761,Friedrichshain-Kreuzberg,11002002
+361,S Frohnau (Berlin),['S1'],52.632307,13.29044,Reinickendorf,11012012
+362,S Frohnau (Berlin),"['S1', 'S26', 'S85']",52.63226,13.290322,Reinickendorf,11012012
+363,S Hermsdorf (Berlin),"['S1', 'S26', 'S85']",52.617287,13.307619,Reinickendorf,11012012
+364,S Waidmannslust (Berlin),"['S1', 'S26', 'S85']",52.60632,13.321223,Reinickendorf,11012012
+365,S Waidmannslust (Berlin),"['S1', 'S26', 'S85']",52.606257,13.321086,Reinickendorf,11012012
+366,S+U Wittenau (Berlin),"['S1', 'S26', 'S85']",52.597097,13.334311,Reinickendorf,11012012
+367,S+U Wittenau (Berlin),"['S1', 'S26', 'S85']",52.597008,13.334183,Reinickendorf,11012012
+368,S Greifswalder Str. (Berlin),"['S41', 'S8', 'S85']",52.540109,13.439108,Pankow,11003003
+369,S Greifswalder Str. (Berlin),"['S41', 'S42', 'S8', 'S85']",52.540212,13.439227,Pankow,11003003
+370,S Landsberger Allee (Berlin),"['S41', 'S8', 'S85']",52.529316,13.45484,Pankow,11003003
+371,S Landsberger Allee (Berlin),"['S41', 'S42', 'S8', 'S85']",52.529386,13.454998,Pankow,11003003
+372,S Storkower Str. (Berlin),"['S41', 'S8', 'S85']",52.52366,13.465047,Pankow,11003003
+373,S Storkower Str. (Berlin),"['S42', 'S8', 'S85']",52.523731,13.465094,Pankow,11003003
+374,S+U Frankfurter Allee (Berlin),"['S41', 'S8', 'S85']",52.515383,13.47428,Friedrichshain-Kreuzberg,11002002
+375,S+U Frankfurter Allee (Berlin),"['S42', 'S8', 'S85']",52.515401,13.47437,Friedrichshain-Kreuzberg,11002002
+376,S Ostkreuz Bhf (Berlin),"['S41', 'S42', 'S8', 'S85']",52.503422,13.469006,Friedrichshain-Kreuzberg,11002002
+377,S Ostkreuz Bhf (Berlin),"['S41', 'S42', 'S8', 'S85']",52.503314,13.469607,Friedrichshain-Kreuzberg,11002002
+378,S Treptower Park (Berlin),"['S41', 'S8', 'S85']",52.493746,13.461502,Treptow-Köpenick,11009009
+379,S Treptower Park (Berlin),"['S41', 'S42', 'S85']",52.493667,13.461736,Treptow-Köpenick,11009009
+380,S Treptower Park (Berlin),"['S8', 'S85', 'S9']",52.493629,13.461846,Treptow-Köpenick,11009009
+381,S Treptower Park (Berlin),"['S41', 'S8', 'S85', 'S9']",52.493711,13.461615,Treptow-Köpenick,11009009
+382,S+U Warschauer Str. (Berlin),"['S3', 'S5', 'S7', 'S75', 'S9']",52.506404,13.450818,Friedrichshain-Kreuzberg,11002002
+383,U Wittenau (Berlin),"['S1', 'S1A']",52.595686,13.333797,Reinickendorf,11012012
+385,Ostpreußendamm Süd (Berlin),['S25'],52.414537,13.302237,Steglitz-Zehlendorf,11006006
+386,S Bornholmer Str. (Berlin),"['S25', 'S85']",52.554749,13.400166,Pankow,11003003
+387,"Berlin, Westendsiedlung",['S3H'],52.453097,13.60766,Treptow-Köpenick,11009009
+388,S Hirschgarten (Berlin),['S3H'],52.457519,13.600941,Treptow-Köpenick,11009009
+389,S Landsberger Allee (Berlin),"['S41', 'S42']",52.528561,13.457131,Lichtenberg,11011011
+390,"Berlin, Veitstr.",['S25'],52.585717,13.287166,Reinickendorf,11012012
+391,Schildower Str. (Berlin),"['S1', 'S1A']",52.618068,13.315501,Reinickendorf,11012012
+392,Zeltinger Platz/S Frohnau (Berlin),"['S1', 'S1A', 'S1X']",52.633654,13.290195,Reinickendorf,11012012
+393,"Berlin, Nettelbeckplatz/S Wedding","['S41', 'S42']",52.544476,13.370697,Mitte,11001001
+394,Ostpreußendamm/Osdorfer Str. (Berlin),['S25'],52.420456,13.309164,Steglitz-Zehlendorf,11006006
+395,"Berlin, Bogenstr.",['S25'],52.425545,13.316368,Steglitz-Zehlendorf,11006006
+396,Hohefeldstr. (Berlin),"['S1', 'S1A']",52.620776,13.306704,Reinickendorf,11012012
+397,Lindauer Allee/Residenzstr. (Berlin),"['S1', 'S25']",52.572599,13.359583,Reinickendorf,11012012
+398,"Berlin, Bucher Chaussee/Achillesstr.",['S2'],52.618684,13.48833,Pankow,11003003
+399,S Gehrenseestr. (Berlin),['S75'],52.555804,13.525847,Lichtenberg,11011011
+400,Grevesmühlener Str. (Berlin),['S75'],52.568066,13.512477,Lichtenberg,11011011
+401,S Wartenberg (Berlin),['S75'],52.573492,13.504718,Lichtenberg,11011011
+402,S Nordbahnhof/Gartenstr. (Berlin),"['S1', 'S2', 'S25']",52.532945,13.388246,Mitte,11001001
+403,Pasewalker Str./Blankenburger Weg (Berlin),"['S2', 'S8']",52.587801,13.430045,Pankow,11003003
+404,S Friedrichshagen (Berlin),['S3'],52.457423,13.623211,Treptow-Köpenick,11009009
+405,S Ostkreuz Bhf (Berlin),"['S3', 'S5', 'S75', 'S9']",52.503348,13.468748,Friedrichshain-Kreuzberg,11002002
+406,S+U Warschauer Str. (Berlin),"['S3', 'S5', 'S7', 'S75', 'S9']",52.506228,13.45072,Friedrichshain-Kreuzberg,11002002
+408,S+U Warschauer Str. (Berlin),"['S3', 'S5', 'S7', 'S75', 'S9']",52.506121,13.450664,Friedrichshain-Kreuzberg,11002002
+409,S Wollankstr./Sternstr. (Berlin),"['S1', 'S25']",52.565481,13.391201,Mitte,11001001
+421,"Berlin, Osloer Str./Prinzenallee","['S1', 'S2', 'S25']",52.55565,13.38499,Mitte,11001001
+422,"Berlin, Am Wiesenrain/Stillerzeile",['S3H'],52.456182,13.611363,Treptow-Köpenick,11009009
+423,S Köpenick/Parrisiusstr. (Berlin),['S3H'],52.45651,13.580558,Treptow-Köpenick,11009009

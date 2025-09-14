@@ -20,6 +20,7 @@ from .text import canon_nh
 class Paths:
     neighborhoods: Path
     ubahn_csv: Path
+    sbahn_csv: Path
     bus_tram_csv: Path
     parks_csv: Path
     playgrounds_csv: Path
@@ -36,6 +37,7 @@ READABLE_RENAMES: Dict[str, str] = {
     "area_km2": "Area (km²)",
     # mobility
     "ubahn_stations": "U-Bahn stations",
+    "sbahn_stations": "S-Bahn stations",
     "bus_tram_stops": "Bus/Tram stops",
     "total_stops": "Transit stops total",
     "connectivity_density": "Transit density (/km²)",
@@ -80,8 +82,9 @@ def run_all_preprocessing(paths: Paths, write_intermediate: bool = True) -> tupl
 
     # Mobility
     df_ubahn = load_csv(paths.ubahn_csv)
+    df_sbahn = load_csv(paths.sbahn_csv)
     df_bus = load_csv(paths.bus_tram_csv)
-    mob = compute_mobility_labels(gdf_nei, df_ubahn, df_bus)
+    mob = compute_mobility_labels(gdf_nei, df_ubahn, df_sbahn, df_bus)
     if write_intermediate:
         save_dataframe(mob, out / "mobility_labels.csv")
 
@@ -183,5 +186,4 @@ def make_readable_columns(df: pd.DataFrame) -> pd.DataFrame:
     ] if c in renamed.columns]
     other = [c for c in renamed.columns if c not in cols]
     return renamed[cols + other]
-
 

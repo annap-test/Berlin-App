@@ -479,3 +479,17 @@ Reinickendorf,Lübars,#venues;#sparse,venues.ipynb:rule-based
 Reinickendorf,Wittenau,#venues;#average,venues.ipynb:rule-based
 Reinickendorf,Märkisches Viertel,#venues;#sparse,venues.ipynb:rule-based
 Reinickendorf,Borsigwalde,#venues;#average,venues.ipynb:rule-based
+Pankow,Weißensee,#mobility;#moderate,mobility.ipynb:rule-based
+Pankow,Karow,#mobility;#moderate,mobility.ipynb:rule-based
+Pankow,Niederschönhausen,#mobility;#moderate,mobility.ipynb:rule-based
+Charlottenburg-Wilmersdorf,Halensee,#mobility;#well-connected,mobility.ipynb:rule-based
+Treptow-Köpenick,Niederschöneweide,#mobility;#well-connected,mobility.ipynb:rule-based
+Steglitz-Zehlendorf,Lichterfelde,#mobility;#well-connected,mobility.ipynb:rule-based
+Tempelhof-Schöneberg,Tempelhof,#mobility;#moderate,mobility.ipynb:rule-based
+Tempelhof-Schöneberg,Lichtenrade,#mobility;#moderate,mobility.ipynb:rule-based
+Neukölln,Britz,#mobility;#remote,mobility.ipynb:rule-based
+Neukölln,Rudow,#mobility;#moderate,mobility.ipynb:rule-based
+Lichtenberg,Friedrichsfelde,#mobility;#moderate,mobility.ipynb:rule-based
+Treptow-Köpenick,Alt-Treptow,#mobility;#well-connected,mobility.ipynb:rule-based
+Lichtenberg,Neu-Hohenschönhausen,#mobility;#well-connected,mobility.ipynb:rule-based
+Reinickendorf,Waidmannslust,#mobility;#well-connected,mobility.ipynb:rule-based

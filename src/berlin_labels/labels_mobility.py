@@ -38,6 +38,7 @@ def tercile_labels(values: pd.Series, labels: Tuple[str, str, str]) -> pd.Series
 def compute_mobility_labels(
     gdf_nei: gpd.GeoDataFrame,
     df_ubahn: pd.DataFrame,
+    df_sbahn: pd.DataFrame,
     df_bus_tram: pd.DataFrame,
 ) -> pd.DataFrame:
     """Compute mobility connectivity metrics and labels per neighborhood.
@@ -55,12 +56,14 @@ def compute_mobility_labels(
 
     # Spatially assign points to neighborhoods
     g_ubahn = to_points_gdf(df_ubahn)
+    g_sbahn = to_points_gdf(df_sbahn)
     g_bus = to_points_gdf(df_bus_tram)
 
     # Create a stable polygon index as an attribute to avoid reliance on sjoin internals
     base_polys = gdf_nei.reset_index().rename(columns={"index": "poly_index"})
     polys = base_polys[["poly_index", "geometry"]]
     pts_ubahn = points_within(polys, g_ubahn)
+    pts_sbahn = points_within(polys, g_sbahn)
     pts_bus = points_within(polys, g_bus)
 
     # Determine the polygon index column name after sjoin
@@ -78,24 +81,30 @@ def compute_mobility_labels(
         raise KeyError("Could not find polygon index column after spatial join")
 
     col_u = _poly_idx_col(pts_ubahn)
+    col_s = _poly_idx_col(pts_sbahn)
     col_b = _poly_idx_col(pts_bus)
 
     cnt_ubahn = (
         pts_ubahn.groupby(col_u).size().rename("ubahn_stations").to_frame().reset_index().rename(columns={col_u: "poly_index"})
+    )
+    cnt_sbahn = (
+        pts_sbahn.groupby(col_s).size().rename("sbahn_stations").to_frame().reset_index().rename(columns={col_s: "poly_index"})
     )
     cnt_bus = (
         pts_bus.groupby(col_b).size().rename("bus_tram_stops").to_frame().reset_index().rename(columns={col_b: "poly_index"})
     )
 
     # Map counts back to neighborhood keys using poly_index
-    base = base_polys.merge(cnt_ubahn, on="poly_index", how="left").merge(cnt_bus, on="poly_index", how="left")
-    out = base[join_cols + ["area_eff_km2", "ubahn_stations", "bus_tram_stops"]].copy()
-    out[["ubahn_stations", "bus_tram_stops"]] = out[["ubahn_stations", "bus_tram_stops"]].fillna(0).astype(int)
-    out["total_stops"] = out["ubahn_stations"] + out["bus_tram_stops"]
+    base = base_polys.merge(cnt_ubahn, on="poly_index", how="left").merge(cnt_sbahn, on="poly_index", how="left").merge(cnt_bus, on="poly_index", how="left")
+    out = base[join_cols + ["area_eff_km2", "ubahn_stations", "sbahn_stations", "bus_tram_stops"]].copy()
+    out[["ubahn_stations", "sbahn_stations", "bus_tram_stops"]] = (
+        out[["ubahn_stations", "sbahn_stations", "bus_tram_stops"]].fillna(0).astype(int)
+    )
+    out["total_stops"] = out["ubahn_stations"] + out["sbahn_stations"] + out["bus_tram_stops"]
 
     # Weighted density per km^2
     out["connectivity_density"] = (
-        (0.7 * out["ubahn_stations"] + 0.3 * out["bus_tram_stops"]) / out["area_eff_km2"]
+        (0.7 * (out["ubahn_stations"] + out["sbahn_stations"]) + 0.3 * out["bus_tram_stops"]) / out["area_eff_km2"]
     )
     out["mobility_score"] = percentile_score(out["connectivity_density"])  # 0–100
     out["mobility_label"] = tercile_labels(out["mobility_score"], labels=("well-connected", "moderate", "remote"))
@@ -107,6 +116,7 @@ def compute_mobility_labels(
         "neighborhood",
         "neighborhood_canon",
         "ubahn_stations",
+        "sbahn_stations",
         "bus_tram_stops",
         "total_stops",
         "connectivity_density",

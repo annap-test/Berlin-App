@@ -10,10 +10,11 @@ from berlin_labels.io import save_dataframe
 def main() -> None:
     ap = argparse.ArgumentParser(description="Run all preprocessing and write final CSVs")
     # Option A: provide a raw directory with standard filenames
-    ap.add_argument("--raw_dir", help="Directory containing standard input files (neighborhoods.geojson, ubahns.csv, bus_tram_stops.csv, parks.csv, playgrounds.csv, venues.csv)")
+    ap.add_argument("--raw_dir", help="Directory containing standard input files (neighborhoods.geojson, ubahns.csv, sbahn_stations_transformed.csv, bus_tram_stops.csv, parks.csv, playgrounds.csv, venues.csv)")
     # Option B: explicit paths (remain compatible). Mark as optional when using --raw_dir
     ap.add_argument("neighborhoods", nargs="?", help="Path to neighborhoods GeoJSON/CSV")
     ap.add_argument("ubahn_csv", nargs="?")
+    ap.add_argument("sbahn_csv", nargs="?")
     ap.add_argument("bus_tram_csv", nargs="?")
     ap.add_argument("parks_csv", nargs="?")
     ap.add_argument("playgrounds_csv", nargs="?")
@@ -26,25 +27,31 @@ def main() -> None:
         base = Path(args.raw_dir)
         neighborhoods = base / "neighborhoods.geojson"
         ubahn_csv = base / "ubahns.csv"
+        # Prefer transformed S-Bahn file name; fallback to a generic one if present
+        sbahn_csv = base / "sbahn_stations_transformed.csv"
+        if not sbahn_csv.exists():
+            alt = base / "sbahns.csv"
+            sbahn_csv = alt if alt.exists() else sbahn_csv
         bus_tram_csv = base / "bus_tram_stops.csv"
         parks_csv = base / "parks.csv"
         playgrounds_csv = base / "playgrounds.csv"
         venues_csv = base / "venues.csv"
-        missing = [p for p in [neighborhoods, ubahn_csv, bus_tram_csv, parks_csv, playgrounds_csv, venues_csv] if not p.exists()]
+        missing = [p for p in [neighborhoods, ubahn_csv, sbahn_csv, bus_tram_csv, parks_csv, playgrounds_csv, venues_csv] if not p.exists()]
         if missing:
             files = "\n".join(str(p) for p in missing)
             raise SystemExit(
                 "Some expected files were not found under --raw_dir.\n" \
-                "Expected: neighborhoods.geojson, ubahns.csv, bus_tram_stops.csv, parks.csv, playgrounds.csv, venues.csv\n" \
+                "Expected: neighborhoods.geojson, ubahns.csv, sbahn_stations_transformed.csv, bus_tram_stops.csv, parks.csv, playgrounds.csv, venues.csv\n" \
                 f"Missing:\n{files}"
             )
     else:
         # Fallback to explicit arguments
-        required = [args.neighborhoods, args.ubahn_csv, args.bus_tram_csv, args.parks_csv, args.playgrounds_csv, args.venues_csv]
+        required = [args.neighborhoods, args.ubahn_csv, args.sbahn_csv, args.bus_tram_csv, args.parks_csv, args.playgrounds_csv, args.venues_csv]
         if any(v is None for v in required):
-            ap.error("Provide either --raw_dir or all six explicit paths.")
+            ap.error("Provide either --raw_dir or all seven explicit paths.")
         neighborhoods = Path(args.neighborhoods)
         ubahn_csv = Path(args.ubahn_csv)
+        sbahn_csv = Path(args.sbahn_csv)
         bus_tram_csv = Path(args.bus_tram_csv)
         parks_csv = Path(args.parks_csv)
         playgrounds_csv = Path(args.playgrounds_csv)
@@ -53,6 +60,7 @@ def main() -> None:
     paths = Paths(
         neighborhoods=neighborhoods,
         ubahn_csv=ubahn_csv,
+        sbahn_csv=sbahn_csv,
         bus_tram_csv=bus_tram_csv,
         parks_csv=parks_csv,
         playgrounds_csv=playgrounds_csv,
